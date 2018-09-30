@@ -24,9 +24,16 @@ public class Fan {
     
 //constructors
     
+    /*
     public Fan() {
         
     }
+    */
+    
+    public Fan() {
+        this(1, 5, "blue", false);
+    }
+    
     //opgave a constructor
     public Fan(int speed, double radius, String color, boolean on) {
         this.speed = speed;
