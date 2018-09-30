@@ -27,7 +27,13 @@ public class Fan {
     public Fan() {
         
     }
-    
+    //opgave a constructor
+    public Fan(int speed, double radius, String color, boolean on) {
+        this.speed = speed;
+        this.on = on;
+        this.radius = radius;
+        this.color = color;
+    }
     
 //methods
     
