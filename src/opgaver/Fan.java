@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package opgaver;
-
+import java.util.Date;
 /**
  *
  * @author rodsur
@@ -52,6 +52,14 @@ public class Fan {
         }
         outputString += " it is " + color + " and";
         outputString += " its radius is " + radius;
+        
+        return outputString;
+    }
+    
+    public String toString(Date date) {
+        String outputString = new String();
+        outputString += date.toString() + ": ";
+        outputString += this.toString();
         
         return outputString;
     }
